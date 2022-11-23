@@ -1,10 +1,10 @@
 #include<bits/stdc++.h>
-using namespace std;
-
+using namespace std; 
+  
 int solve(int n)
 {
     int ans=0;
-    for(int i=1;i<=sqrt(n);i++)
+    for(int i=1;i<=sqrt(n);i++) 
     {
         if(n%i==0)
         {
